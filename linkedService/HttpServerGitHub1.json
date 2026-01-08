@@ -1,15 +1,10 @@
 {
 	"name": "HttpServerGitHub1",
 	"properties": {
-		"parameters": {
-			"source": {
-				"type": "string"
-			}
-		},
 		"annotations": [],
 		"type": "HttpServer",
 		"typeProperties": {
-			"url": "@{linkedService().source}",
+			"url": "https://raw.githubusercontent.com/",
 			"enableServerCertificateValidation": true,
 			"authenticationType": "Anonymous"
 		}
