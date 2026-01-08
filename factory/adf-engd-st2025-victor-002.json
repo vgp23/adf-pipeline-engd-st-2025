@@ -1,0 +1,9 @@
+{
+	"name": "adf-engd-st2025-victor-002",
+	"location": "westeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "58563258-e459-42d2-bbd1-8c59a473ef69",
+		"tenantId": "cc7df247-60ce-4a0f-9d75-704cf60efc64"
+	}
+}
