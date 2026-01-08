@@ -1,0 +1,12 @@
+{
+	"name": "HttpServerGitHub1",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://raw.githubusercontent.com/umpirsky/country-list/refs/heads/master/data/en_US/country.csv",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
