@@ -47,7 +47,13 @@
 				"inputs": [
 					{
 						"referenceName": "countries",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"relative_url": {
+								"value": "@pipeline().parameters.source",
+								"type": "Expression"
+							}
+						}
 					}
 				],
 				"outputs": [
@@ -58,6 +64,12 @@
 				]
 			}
 		],
+		"parameters": {
+			"source": {
+				"type": "string",
+				"defaultValue": "/umpirsky/country-list/refs/heads/master/data/en_US/country.csv"
+			}
+		},
 		"annotations": []
 	}
 }
